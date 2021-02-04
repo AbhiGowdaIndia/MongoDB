@@ -5,6 +5,7 @@ MongoDB stores data records as documents (specifically BSON documents) which are
 MongoDB stores data records as BSON documents. BSON is a binary representation of JSON documents, though it contains more data types than JSON.
 
 A MongoDB document.
+
 {
 
 Firstname : 'Laxman',        <-----------    Field : value
@@ -18,6 +19,7 @@ Salary : 25000               <-----------    Field : value
 }
 
 Document Structure
+
 MongoDB documents are composed of field-and-value pairs and have the following structure:
 
 {
@@ -31,4 +33,5 @@ MongoDB documents are composed of field-and-value pairs and have the following s
    
    fieldN: valueN
 }
+
 

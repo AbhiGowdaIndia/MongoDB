@@ -6,10 +6,15 @@ MongoDB stores data records as BSON documents. BSON is a binary representation o
 
 A MongoDB document.
 {
+
 Firstname : 'Laxman',        <-----------    Field : value
+
 Lastname : 'Kumar',          <-----------    Field : value
+
 Age : 25,                    <-----------    Field : value
+
 Salary : 25000               <-----------    Field : value
+
 }
 
 Document Structure
@@ -17,9 +22,13 @@ MongoDB documents are composed of field-and-value pairs and have the following s
 
 {
    field1: value1,
+   
    field2: value2,
+   
    field3: value3,
+   
    ...
+   
    fieldN: valueN
 }
 
